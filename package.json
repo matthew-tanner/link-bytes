@@ -1,0 +1,29 @@
+{
+  "name": "link-bytes",
+  "version": "1.0.0",
+  "description": "url shortener",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": " node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodebytes/link-bytes.git"
+  },
+  "author": "kodebytes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodebytes/link-bytes/issues"
+  },
+  "homepage": "https://github.com/kodebytes/link-bytes#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "mongoose": "^5.12.10",
+    "nanoid": "^3.1.23",
+    "restify": "^8.5.1",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "^8.0.2",
+    "restify-plugins": "^1.6.0"
+  }
+}
